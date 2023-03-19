@@ -12,7 +12,10 @@ jobs:
           pkg-manager: pip
       - run:
           name: Run tests
-          command: python -m pytest
+          command: |
+            pip install numpy
+            pip install pytest
+            python -m pytest
       - persist_to_workspace:
           root: ~/project
           paths:
