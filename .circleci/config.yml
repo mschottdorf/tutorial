@@ -16,9 +16,6 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "pip install pytest"
-          command: "pip install numpy"
-          command: "pytest"
           command: "echo Hello, World!"
 
 # Invoke jobs via workflows
