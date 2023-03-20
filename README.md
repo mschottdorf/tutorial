@@ -10,3 +10,7 @@ Content covered:
 1. Sphinx to generate documentation from code + text
 1. How to run unit tests with pytest locally.
 1. How to run them on github with circle.ci
+
+
+# Who worked on this tutorial
+Julie and Manuel

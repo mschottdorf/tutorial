@@ -37,3 +37,7 @@ We can write some text. Blablabla.
     :undoc-members:
     :inherited-members:
     :show-inheritance:
+
+This is to show possibilities
+====================================
+Today we're doin a tutorial on documentation and coding. This is fun

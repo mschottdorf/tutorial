@@ -2,7 +2,7 @@ import numpy as np
 
 class Tutorialclass:
     """This is a little toy class to show documentation...
-    
+
         Use: 
         1. instantiate this Class.
         2. Save numbers internally with the method `add_number(x)`:
@@ -40,3 +40,14 @@ class Tutorialclass:
         cc = dict()
         cc['sum'] = np.sum(self._data)
         return cc
+
+    def return_length_above_limit(self, limit):
+        """Return the number of all entries whose numerical value is above `limit`
+
+        Args:
+            limit (float): limit for dummy function
+
+        Returns:
+            float: numerical sum of all entries above limit
+        """
+        return np.sum(self._data > limit)
