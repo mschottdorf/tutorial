@@ -4,6 +4,7 @@ import pytest
 try:
     from src.tutorialclass import Tutorialclass  # From PATH import function/class name
 except:
+    print("import issue")
     pass
 
 def test_class():
@@ -20,15 +21,19 @@ def test_class():
     assert type(cc) == dict
     assert cc['sum'] == np.sum(test_numbers)
 
-def another_test():
+def test_class_again():
     '''
     This tests whether the class fires up.
     '''
-    test_numbers = [3,33]
+    test_numbers = [2,7,8]
 
     t = Tutorialclass()
+    for x in test_numbers:
+        t.add_number(x)
+    cc = t.return_sum()
 
-    assert True
+    assert type(cc) == dict
+    assert cc['sum'] == np.sum(test_numbers)
 
 def test_class_longlist():
     '''
