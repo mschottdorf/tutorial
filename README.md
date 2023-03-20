@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/mschottdorf/tutorial/badge.svg?branch=main)](https://coveralls.io/github/mschottdorf/tutorial?branch=main)
+
 # tutorial
  
 A tutorial about good coding practices. Some demos. 
