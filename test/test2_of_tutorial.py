@@ -28,7 +28,7 @@ def another_test():
 
     t = Tutorialclass()
 
-    assert True
+    assert False
 
 def test_class_longlist():
     '''
